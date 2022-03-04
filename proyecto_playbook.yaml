@@ -1,0 +1,5 @@
+---
+- hosts: webservers
+  tasks:
+    - name: ejecutar script
+      command: /home/domin/proyecto/prueba2.sh
